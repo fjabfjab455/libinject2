@@ -1,5 +1,6 @@
 LOCAL_PATH := $(call my-dir)
 
+LOCAL_LDFLAGS := -static
 include $(CLEAR_VARS)
 
 LOCAL_MODULE    := hello
